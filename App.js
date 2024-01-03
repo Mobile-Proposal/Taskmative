@@ -1,13 +1,13 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import { Home } from './component/page/Home';
+import { Profile } from './component/page/Profile';
 import tw from 'twrnc';
 
 export default function App() {
     return (
 
-        <View>
-            <Home/>
+        <View style ={``}>
+            <Profile/>
 
         </View>
     );
